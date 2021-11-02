@@ -8,7 +8,7 @@ main {
   --primary: #678D58;
   --secondary: #DD9787;
   --tertiary: #74D3AE;
-  --dark: #678D58;
+  --dark: #4b6c3f;
   --light: #F6E7CB;
   --lighter: #A6C48A;
   --error: rgb(228, 46, 1);
@@ -86,7 +86,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color:var(--secondary)
 }
 
 header {
@@ -127,7 +128,7 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 60%;
 }
 
 input {
@@ -152,6 +153,10 @@ nav a:hover {
   text-decoration: none;
 }
 
+nav {
+  float:right
+}
+
 nav  li {
   cursor: pointer;
 }
@@ -161,6 +166,11 @@ textarea {
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+}
+
+textarea:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
 .container {

@@ -6,8 +6,8 @@ function About() {
         <section className="my-5">
             <h1 id="about">Who am I?</h1>
             <div className="flex-row">
-                <img src={myPic} className="space-between mx-5" style={{ width: "20%" }} alt="Siyan's portrait" />
-                <div className="space-between mx-5 container">
+                <img src={myPic} className= "my-2" style={{ width: "20%" }} alt="Siyan's portrait" />
+                <div className=" my-2 container">
                     <p style={{ width: "100%" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
                         condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
