@@ -4,7 +4,7 @@ import myPic from '../../assets/siyan.jpg';
 function About() {
     return (
         <section className="my-5">
-            <h1 id="about">Who am I?</h1>
+            <h1>Who am I?</h1>
             <div className="flex-row">
                 <img src={myPic} className= "my-2" style={{ width: "20%" }} alt="Siyan's portrait" />
                 <div className=" my-2 container">
