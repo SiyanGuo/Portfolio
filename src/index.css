@@ -134,41 +134,33 @@ button[disabled] {
   text-align: center;
 }
 
-
 .card {
   background: #fff;
   border-radius: 2px;
   height: 325px;
-  margin: 1rem;
+  margin: 1rem auto;
   position: relative;
   width: 325px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  text-align: left;
 }
 
 .card > .img-container {
   height: 60%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 100%
 }
 
 .card > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .card > .content > ul {
   list-style-type: none;
 }
 
-.card > .content > ul > li {
-  margin-top: 18px;
-}
 
 span[role="img"] {
   cursor: default;
@@ -290,10 +282,6 @@ textarea:focus {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
 
 .img-thumbnail {
   width: auto;

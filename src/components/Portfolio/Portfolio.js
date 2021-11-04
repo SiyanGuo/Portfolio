@@ -6,7 +6,7 @@ const Portfolio = () => {
     // const test = portfolioList[0]
     // console.log("test", test);
     return (
-        <div className="container">
+        <div className=" flex-row">
             {/* <h2 >Portfolio</h2>
             <div>
                 <img src={require('../../assets/blog.jpg').default} alt="portfolio1"></img>
@@ -19,7 +19,6 @@ const Portfolio = () => {
             <Project
               id={portfolio.id}
               name={portfolio.name}
-            //   image={portfolio.image}
               github={portfolio.github}
               deploy={portfolio.deploy}
             />
