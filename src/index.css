@@ -40,9 +40,14 @@ body {
 }
 
 footer {
-padding:3%;
+padding:1rem;
 background-color:var(--lighter);
 text-align: center;
+}
+
+.icon{
+  padding:1%;
+
 }
 
 label{

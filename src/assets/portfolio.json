@@ -8,7 +8,7 @@
     },
     {
         "id": "2",
-        "name": "Tech Bloc",
+        "name": "Tech Blog",
         "image": "../../assets/blog.jpg",
         "github": "https://github.com/SiyanGuo/Tech-Blog",
         "deploy": "https://stormy-ravine-38393.herokuapp.com/"
