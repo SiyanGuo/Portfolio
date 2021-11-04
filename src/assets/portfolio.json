@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "name": "Weather App",
+        "image": "./weather.jpg",
+        "github": "https://github.com/SiyanGuo/Weather-Dashboard",
+        "deploy": "https://siyanguo.github.io/Weather-Dashboard/"
+    },
+    {
+        "id": "2",
+        "name": "Tech Bloc",
+        "image": "./blog.jpg",
+        "github": "https://github.com/SiyanGuo/Tech-Blog",
+        "deploy": "https://stormy-ravine-38393.herokuapp.com/"
+    },
+    {
+        "id": "3",
+        "name": "Note Taker",
+        "image": "./note.jpg",
+        "github": "https://github.com/SiyanGuo/note-taker",
+        "deploy": "https://obscure-taiga-58114.herokuapp.com/"
+    },
+    {
+        "id": "4",
+        "name": "Work Day Schedule",
+        "image": "./schedule.jpg",
+        "github": "https://github.com/SiyanGuo/work-day-schedule",
+        "deploy": "https://siyanguo.github.io/work-day-schedule/"
+    },
+    {
+        "id": "5",
+        "name": "Budget Tracker",
+        "image": "./budget.jpg",
+        "github": "https://github.com/SiyanGuo/PWA-Budget-Tracker2",
+        "deploy": "https://limitless-ravine-16914.herokuapp.com"
+    },
+
+    {
+        "id": "6",
+        "name": "Code Quiz",
+        "image": "./quiz.jpg",
+        "github": "https://github.com/SiyanGuo/code-quiz",
+        "deploy": "https://siyanguo.github.io/code-quiz/"
+    }
+]

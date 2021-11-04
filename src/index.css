@@ -122,6 +122,9 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  display: block;
+  margin:auto;
+  text-align: center;
 }
 
 span[role="img"] {
