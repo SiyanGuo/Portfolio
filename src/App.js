@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import About from './components/About/About.js';
 import ContactForm from './components/Contact/Contact';
 import Nav from './components/Nav/Nav.js';
+import Portfolio from './components/Portfolio/Portfolio';
+import Footer from './components/Footer/Footer';
 import Resume from './components/Resume/Resume.js'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         return <Resume />;
       case 'Contact':
         return <ContactForm />;
+      case 'Portfolio':
+        return <Portfolio />;
       default:
         return <About />;
     }
@@ -30,6 +34,7 @@ function App() {
       <main>
         <div>{renderPage(currentPage)}</div>
       </main>
+      <Footer />
     </>
   );
 }

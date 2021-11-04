@@ -39,6 +39,16 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+footer {
+padding:3%;
+background-color:var(--lighter);
+text-align: center;
+}
+
+label{
+  display: block;
+}
+
 h1,
 h2,
 h3,
@@ -91,9 +101,6 @@ a:hover {
   color:var(--secondary)
 }
 
-header {
-  background: var(--light);
-}
 
 header a {
   color: var(--dark);
