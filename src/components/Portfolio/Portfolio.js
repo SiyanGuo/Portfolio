@@ -1,33 +1,31 @@
 import React from 'react';
 import portfolioList from '../../assets/portfolio.json';
+import Project from '../Project/Project.js';
 
 const Portfolio = () => {
-    const test = portfolioList[0]
-    console.log("test", test);
+    // const test = portfolioList[0]
+    // console.log("test", test);
     return (
         <div className="container">
-            <h2 >Portfolio</h2>
+            {/* <h2 >Portfolio</h2>
             <div>
                 <img src={require('../../assets/blog.jpg').default} alt="portfolio1"></img>
                 <h4>{test.name}</h4>
                 <a href={test.github} rel="noreferrer" target="_blank">Github</a>
                 <a href={test.deploy} rel="noreferrer" target="_blank">Deployed</a>
-            </div>
+            </div> */}
 
-
-
-            {/* {portfolioList.map(portfolio => (
+            {portfolioList.map(portfolio => (
             <Project
-              key={portfolio.id}
+              id={portfolio.id}
               name={portfolio.name}
-              image={portfolio.image}
+            //   image={portfolio.image}
               github={portfolio.github}
               deploy={portfolio.deploy}
             />
-          ))} */}
+          ))}
         </div>
     );
-
 }
 
 export default Portfolio;

@@ -6,7 +6,7 @@ function About() {
         <section className="my-5 container">
             <h1>Who am I?</h1>
             
-                <img src={myPic} className= "my-2" style={{ width: "20%" }} alt="Siyan's portrait" />
+                <img className="portrait my-2" src={myPic} style={{ width: "20%" }} alt="Siyan's portrait" />
                 <div className=" my-2">
                     <p style={{ width: "100%" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex

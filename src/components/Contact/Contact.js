@@ -39,7 +39,6 @@ function ContactForm() {
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
-                    
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
                 <div>
