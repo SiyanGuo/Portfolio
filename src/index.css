@@ -47,7 +47,6 @@ text-align: center;
 
 .icon{
   padding:1%;
-
 }
 
 label{
@@ -198,7 +197,7 @@ nav a:hover {
 }
 
 nav {
-  float:right
+margin: auto 140px auto 430px;
 }
 
 nav  li {

@@ -7,13 +7,13 @@ function Nav(props) {
 
     return (
         <header className="flex-row px-1">
-            <h2 className="mx-2 my-5">
+            <h2 className="mx-2 my-5 flex-end">
                 <a href="/">
                     Siyan Serena Guo
                 </a>
             </h2>
-            <nav>
-                <ul className="flex-row my-5">
+            <nav className="flex-end">
+                <ul className="flex-row">
                     {tabs.map(tab => (
                         <li className="mx-2" key={tab}>
                             <a
