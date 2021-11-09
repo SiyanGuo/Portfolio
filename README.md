@@ -11,7 +11,7 @@ This a single-page application portfolio site is built with React, featuring wor
 
 
 ## Deployed on Heroku
-<https://siyanguo.github.io/portfolio>
+<http://siyanguo.github.io/Portfolio>
 
 
 ## Contribution
