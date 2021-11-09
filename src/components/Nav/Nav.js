@@ -8,7 +8,7 @@ function Nav(props) {
     return (
         <header className="flex-row px-1">
             <h2 className="mx-2 my-5 flex-end">
-                <a href="/">
+                <a href="/Portfolio">
                     Siyan Serena Guo
                 </a>
             </h2>
